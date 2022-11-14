@@ -37,6 +37,6 @@ setuptools.setup(
     install_requires=base_packages,
     package_dir={"": "."},
     packages=setuptools.find_packages(where="."),
-    python_requires='>=3.7',
+    python_requires='>=3.6',
     data_files=[('requirements', ['requirements.txt'])],
 )
